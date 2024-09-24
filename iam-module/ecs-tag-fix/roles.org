@@ -1,0 +1,33 @@
+** roles:
+*** aws-elasticbeanstalk-ec2-role
+- Managed Policy: arn:aws:iam::aws:policy/AWSElasticBeanstalkMulticontainerDocker
+*** aws-elasticbeanstalk-service-role
+- Managed Policy: arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkService
+*** AWSServiceRoleForElasticBeanstalkManagedUpdates
+- Managed Policy: arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy
+*** copilot-instance
+- Managed Policy: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role
+*** cost-optimizer-for-amazon-worksp-InvokeECSTaskRole-1I6P071D39C05
+- Managed Policy: InvokeECSTaskPolicy
+*** datadog-agent-ecs
+- Managed Policy: datadog-agent-policy
+*** ecsCodeDeployRole
+- Managed Policy: arn:aws:iam::aws:policy/AWSCodeDeployRoleForECS
+*** ecsEventsRole
+- Managed Policy: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceEventsRole
+*** IMPORTANT ecsInstanceDevOpsRole
+- Managed Policy: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role
+*** IMPORTANT ecsInstanceRole
+- Managed Policy: arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role
+*** IMPORTANT RestartECSService
+- Managed Policy: arn:aws:iam::586672212047:policy/Transaction-Transformation-Alert_Policy
+*** SQ-Load-Test-Prod-DLTApiDLTAPIServicesLambdaRole44-MTTP2CQ70ONA
+- Managed Policy: DLTAPIServicesLambdaPolicy
+- Managed Policy: RegionalECRPerms-prod-QA-regional-load-test-us-east-1
+*** SQ-Load-Test-Prod-DLTLambdaFunctionDLTTestLambdaTa-1DJFW6WT27ES
+- Managed Policy: TaskLambdaPolicy
+- Managed Policy: RegionalECRPerms-prod-QA-regional-load-test-us-east-1
+*** IMPORTANT SRTS-srts2-life-match-manager-st-cw-role
+- Managed Policy: SRTS-srts2-life-match-manager-st-cw-policy
+*** IMPORTANT TransactionTransformationAlertLambdaRole
+- Managed Policy: arn:aws:iam::586672212047:policy/Transaction-Transformation-Alert_Policy

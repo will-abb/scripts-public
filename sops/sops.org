@@ -1,0 +1,21 @@
+#+title: sops
+* generate all sops files
+** create configs for all repos
+*** run with no arguments
+**** creates newly-generated-configs-all directory
+**** does not replace/overwrite existing directories or files
+**** sops.yaml generated in the new directory
+**** files encrypted using the new sops.yaml
+** create config for specific team/division
+*** user specifies role
+**** user specifies extension
+***** needed because changing extension is not as straight forward
+****** sops.yaml generated in the new directory
+****** env files generated and encrypted for dev, uat, prod accounts
+****** all-env.enc file generated and encrypted with production keys
+**** no extension defaults to txt
+****** sops.yaml generated in the new directory
+****** env files generated and encrypted for dev, uat, prod accounts
+****** all-env.enc file generated and encrypted with production keys
+** non-standard accounts (dev, uat, prod)
+*** maybe in future
